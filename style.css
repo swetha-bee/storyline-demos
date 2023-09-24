@@ -112,6 +112,12 @@ h6 {
     font-size: 13px
 }
 
+p a {
+    color: #e2e2e2;
+    text-decoration: none!important;
+    opacity: 1
+}
+
 h1 a,
 h2 a,
 h3 a,

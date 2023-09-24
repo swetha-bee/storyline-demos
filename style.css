@@ -652,7 +652,7 @@ xclip
 
 
 
-.services-inner-box{
+.experiences-inner-box{
 	padding: 15px;
 	background: #ffffff;
 	margin-bottom: 30px;
@@ -667,7 +667,7 @@ xclip
 	font-size: 50px;
 	color: #333333;
 }
-.services-inner-box h2{
+.experiences-inner-box h2{
 	font-size: 22px;
 	font-weight: 600;
 }
@@ -2239,7 +2239,7 @@ select.mobile-device {
 .footer-distributed .footer-company-name {
     font-weight: 300;
     margin: 0 10px;
-    color: #666;
+    color: #c2c2c2;
     padding: 0;
 }
 

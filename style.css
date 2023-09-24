@@ -89,23 +89,23 @@ h6 {
 }
 
 h1 {
-    font-size: 24px
+    font-size: 35px
 }
 
 h2 {
-    font-size: 22px
+    font-size: 30px
 }
 
 h3 {
-    font-size: 18px
+    font-size: 24px
 }
 
 h4 {
-    font-size: 16px
+    font-size: 20px
 }
 
 h5 {
-    font-size: 14px
+    font-size: 15px
 }
 
 h6 {
@@ -309,14 +309,10 @@ a img.aligncenter {
     HEADER
 -------------------------------------------------------------------*/
 
-.navbar-dark{
-	
-}
-
 .navbar-dark .navbar-nav .nav-link{
 	color: #ffffff;
 	letter-spacing: 1px;
-	font-size: 14px;
+	font-size: 23px;
 	position: relative;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
@@ -371,7 +367,7 @@ a img.aligncenter {
     opacity: .6;
 }
 .heading{
-	color: #fff;
+	color: #ffffff;
 	display: table-cell;
 	vertical-align: middle;
 	position: relative;
@@ -472,7 +468,6 @@ xclip
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 70px 0;
 }
 
 .noover {

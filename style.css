@@ -21,6 +21,11 @@ a {
     color:white;
 }
 
+li {
+    font-size: large;
+    font-weight: bolder;
+}
+
 img {
     width:150px;
     height: 150px;;
@@ -41,10 +46,12 @@ footer {
     padding: 200px 0;
     color: white;
     width: 100%;
+    font-weight: 900;
 }
 
 .paragraph {
-    margin: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {

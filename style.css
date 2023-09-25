@@ -47,7 +47,13 @@ footer {
   padding: 200px 0;
   color: white;
   width: 100%;
-  font-weight: 900;
+}
+
+.header h1 {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
 }
 
 .paragraph {

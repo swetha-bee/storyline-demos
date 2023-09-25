@@ -3,38 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Home</title>
     <style>
         body {
             margin: 0;
             padding: 0;
-            background-color: white; /* Set the page background to white */
-            color: black; /* Text color for readability */
-            font-family: Arial, sans-serif; /* Choose your preferred font */
+            font-family: 'Roboto Mono', monospace;
+            background-color: #502b74; /* Pastel yellow background color */
+            color: #f7f7f7; /* Dark gray text color */
         }
 
         .header {
-            background-image: url('gifs/thank-you.gif'); /* Replace with your image URL */
+            background-image: url('gifs/portfolio.gif'); /* Replace with your image URL */
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
             text-align: center;
             padding: 100px 0;
             color: white; /* Text color on top of the image */
+            width: 100%;
+            height: 100%;
+        }
+
+        .navbar {
+            text-align: center;
+            background-color: #502b74; /* Pastel pink navbar background color */
+            padding: 20px 0;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #dfdfdf; /* Dark gray text color */
+            font-size: 18px;
+            margin: 10px;
+        }
+
+        .navbar a:hover {
+            color: #69b7ff; /* Pastel pink hover color */
+        }
+
+        .content {
+            text-align: center;
+            padding: 50px;
         }
 
         h1 {
             font-size: 36px;
-        }
-
-        .content {
-            background-color: white; /* White background for the paragraph body */
-            padding: 20px;
-            text-align: center;
+            color: #e2e2e2; /* Dark gray text color */
         }
 
         p {
             font-size: 18px;
+            line-height: 1.5;
+            margin: 20px 0;
+        }
+
+        a {
+            color:white;
         }
 
         .image-container {
@@ -65,12 +90,22 @@
 
         .image-box:hover img {
             transform: scale(1.1);
-        }
-    </style>
+        }    </style>
 </head>
 <body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="experience.html">Experiences</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
     <div class="header">
         <h1>Portfolio</h1>
+    </div>
+    <div class="paragraph">
+        <h2>Some text here</h2>
     </div>
     <div class="image-container">
         <div class="image-box">

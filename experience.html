@@ -8,19 +8,38 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #F0E68C; /* Pastel yellow background color */
-            color: #333; /* Dark gray text color */
+            font-family: 'Roboto Mono', monospace;
+            background-color: #502b74; /* Pastel yellow background color */
+            color: #f7f7f7; /* Dark gray text color */
         }
 
         .header {
-            background-image: url('gifs/thank-you.gif'); /* Replace with your image URL */
+            background-image: url('gifs/experiences-2.gif'); /* Replace with your image URL */
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
             text-align: center;
             padding: 100px 0;
             color: white; /* Text color on top of the image */
+            width: 100%;
+            height: 100%;
+        }
+
+        .navbar {
+            text-align: center;
+            background-color: #502b74; /* Pastel pink navbar background color */
+            padding: 20px 0;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #dfdfdf; /* Dark gray text color */
+            font-size: 18px;
+            margin: 10px;
+        }
+
+        .navbar a:hover {
+            color: #69b7ff; /* Pastel pink hover color */
         }
 
         .content {
@@ -47,7 +66,6 @@
 
         .experience-column {
             flex: 1;
-            background-color: #87CEEB; /* Pastel blue background color */
             padding: 20px;
             margin: 10px;
             border-radius: 10px;
@@ -56,16 +74,24 @@
 
         .experience-header {
             font-size: 24px;
-            color: #333; /* Dark gray text color */
+            color: white; /* Dark gray text color */
         }
 
         .experience-subheader {
             font-size: 18px;
-            color: #333; /* Dark gray text color */
+            color: white; /* Dark gray text color */
         }
     </style>
 </head>
 <body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#services">Services</a>
+        <a href="experience.html">Experiences</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </div>
     <div class="header">
         <h1>Experiences</h1>
     </div>

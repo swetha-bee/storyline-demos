@@ -1,20 +1,23 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", monospace;
-  background-color: #502b74; /* Pastel yellow background color */
-  color: #f7f7f7; /* Dark gray text color */
+  font-family: "Dela Gothic One", monospace;
+  background-color: #502b74;
+  color: #f7f7f7;
 }
 
 h1 {
-  font-size: 36px;
-  color: #e2e2e2; /* Dark gray text color */
+  font-size: 100px;
+  font-weight: 900;
+  color: #e2e2e2;
+  padding: 0;
 }
 
 p {
   font-size: 20px;
   line-height: 1.5;
   margin: 20px 0;
+  padding-top: 0;
 }
 
 a {
@@ -34,8 +37,9 @@ img {
 footer {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 0;
   justify-content: space-between;
+  background-color: #502b74;
 }
 
 .header {
@@ -50,16 +54,18 @@ footer {
 }
 
 .header h1 {
-    font-family: "Abril Fatface", monospace;
-    font-size: 70px;
-    margin: 0;
-    padding: 0;
-    font-weight: 900;
+  font-family: "Abril Fatface", monospace;
+  font-size: 70px;
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
 }
 
 .paragraph {
-  margin: 0;
-  padding: 0;
+  max-width: 800px; /* Set a maximum width for the content */
+  margin: 0 auto; /* Center the element horizontally */
+  text-align: left; /* Left-justify the text */
+  padding: 0 20px; /* Add padding to the sides for whitespace */
 }
 
 .navbar {
@@ -75,6 +81,7 @@ footer {
   color: #dfdfdf;
   font-size: 18px;
   margin: 10px;
+  font-weight: 900;
 }
 
 .navbar a:hover {

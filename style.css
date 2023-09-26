@@ -41,12 +41,16 @@ a {
 td p {
   white-space: normal;
   font-weight: normal;
+  margin: 0;
+  padding: 0;
 }
 
 table {
   width: 100%;
   max-width: 100%;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -112,35 +116,13 @@ footer {
   padding: 50px;
 }
 
-.experience-section {
-  display: flex;
-  justify-content: space-between;
-}
-
-.experience-column {
-  flex: 1;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.experience-header {
-  font-size: 24px;
-}
-
-.experience-subheader {
-  font-size: 18px;
-  padding: 0;
-}
-
 .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.services-table, .education-table {
+.services-table, .education-table, .experience-table {
   overflow-x: auto;
 }
 
@@ -150,7 +132,7 @@ footer {
   white-space: nowrap;
 }
 
-.education-table td {
+.education-table, .experience-table td {
   font-size: 20px;
   font-weight: bolder;
   text-align: center;

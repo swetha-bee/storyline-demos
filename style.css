@@ -22,6 +22,7 @@ h1 {
   font-size: 100px;
   font-weight: 900;
   color: #e2e2e2;
+  margin: 0;
   padding: 0;
 }
 
@@ -58,6 +59,7 @@ footer {
   color: white;
   display: flex;
   align-items: center;
+  margin: 0;
   padding: 0;
   justify-content: space-between;
   background-color: #502b74;
@@ -179,10 +181,8 @@ footer {
 }
 
 .footer-left {
-  display: flex;
   text-align: left;
-  margin: 0 10px;
-  padding: 0;
+  margin-left: 10px;
   flex-direction: column;
 }
 
@@ -192,8 +192,6 @@ footer {
 }
 
 .footer-right {
-  display: flex;
   text-align: right;
-  margin: 0 10px;
-  padding: 0;
+  margin-right: 10px;
 }

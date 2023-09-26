@@ -25,20 +25,23 @@ a {
   text-decoration: none;
 }
 
-li, td {
-  font-size: 30px;
-  font-weight: bolder;
-  white-space: nowrap;
-}
-
 td p {
   white-space: normal;
+  font-weight: normal;
 }
 
 table {
   max-width: 100%;
   margin: 10px;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-collapse: collapse;
+}
+
+table tr td {
+  border: 1px solid black;
 }
 
 img {
@@ -127,8 +130,28 @@ footer {
   align-items: center;
 }
 
-.sercices-table {
+.services-table {
+  text-align: center;
   overflow-x: auto;
+}
+
+.services-table td {
+  font-size: 30px;
+  font-weight: bolder;
+  white-space: nowrap;
+}
+
+.education-table {
+  text-align: center;
+  overflow-x: auto;
+}
+
+.education-table td {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  height: 50vh;
+  column-span: 2;
 }
 
 .image-box {

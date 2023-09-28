@@ -11,11 +11,20 @@ body {
 
 @keyframes fadeInAnimation {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 1;
-   }
+    opacity: 1;
+  }
+}
+
+@keyframes flyInAnimation {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 h1 {
@@ -73,6 +82,11 @@ footer {
   text-decoration: underline;
 }
 
+#flyIn {
+  animation: flyInAnimation 2s ease-out;
+  -webkit-animation: flyInAnimation 2s ease-out;
+}
+
 .header {
   background-size: cover;
   object-fit: contain;
@@ -82,6 +96,11 @@ footer {
   padding: 100px 0;
   color: white;
   width: 100%;
+}
+
+.header h1 {
+  animation: flyInAnimation 2s ease-out;
+  -webkit-animation: flyInAnimation 2s ease-out;
 }
 
 .paragraph {
@@ -122,7 +141,9 @@ footer {
   align-items: center;
 }
 
-.services-table, .education-table, .experience-table {
+.services-table,
+.education-table,
+.experience-table {
   overflow-x: auto;
 }
 
@@ -132,7 +153,8 @@ footer {
   white-space: nowrap;
 }
 
-.education-table, .experience-table td {
+.education-table,
+.experience-table td {
   font-size: 20px;
   font-weight: bolder;
   text-align: center;
